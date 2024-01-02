@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Barbara Tsitey</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <style>
+    </style>
+</head>
+
+<body class="bg-gray-100">
+
+    <header class="bg-blue-500 text-white text-center py-4">
+        <h1 class="text-3xl font-bold">Barbara Tsitey</h1>
+        <p>Computer Science</p>
+    </header>
+
+    <nav class="bg-blue-500 text-white p-4">
+        <div class="container mx-auto flex justify-between items-center">
+            <li><a href="index.html" class="hover:text-white">Home</a></li>
+            <li><a href="projects.html" class="hover:text-white">Projects</a></li>
+            <li><a href="contact.html" class="hover:text-white">Contact</a></li>
+        </div>
+    </nav>
+    
+
+    <!-- Contact Section -->
+<section class="mb-8" id="contact">
+    <h2 class="text-2xl font-bold mb-4">Contact</h2>
+
+    <!-- Contact Information -->
+    <div class="mb-4">
+        <p>Email: <a href="mailto:your.email@example.com">813barbara@gmail.com</a></p>
+        <!-- Include other contact information as needed -->
+    </div>
+
+    <!-- Contact Form -->
+    <form action="process-contact-form.php" method="post">
+        <div class="mb-4">
+            <label for="name" class="block text-sm font-medium text-gray-700">Name</label>
+            <input type="text" name="name" id="name" class="mt-1 p-2 w-full border rounded-md">
+        </div>
+
+        <div class="mb-4">
+            <label for="email" class="block text-sm font-medium text-gray-700">Email</label>
+            <input type="email" name="email" id="email" class="mt-1 p-2 w-full border rounded-md">
+        </div>
+
+        <div class="mb-4">
+            <label for="subject" class="block text-sm font-medium text-gray-700">Subject</label>
+            <input type="text" name="subject" id="subject" class="mt-1 p-2 w-full border rounded-md">
+        </div>
+
+        <div class="mb-4">
+            <label for="message" class="block text-sm font-medium text-gray-700">Message</label>
+            <textarea name="message" id="message" rows="4" class="mt-1 p-2 w-full border rounded-md"></textarea>
+        </div>
+
+        <button type="submit" class="bg-blue-500 text-white px-4 py-2 rounded-md">Send Message</button>
+    </form>
+
+    <!-- Social Media Links -->
+    <div class="mt-8">
+        <p>Connect with me on:</p>
+        <ul class="flex space-x-4">
+            <li><a href="https://www.linkedin.com/in/barbara-tsitey-7a857b1b4/" target="_blank" rel="noopener noreferrer">LinkedIn</a></li>
+            <li><a href="https://github.com/BarbQueenie2000/BarbQueenie2000.github.io?tab=readme-ov-file#barbqueenie2000githubio" target="_blank" rel="noopener noreferrer">GitHub</a></li>
+            <!-- Add more social media links as needed -->
+        </ul>
+    </div>
+</section>
+
+
+    <script src="your-script.js"></script>
+</body>
+
+</html>
